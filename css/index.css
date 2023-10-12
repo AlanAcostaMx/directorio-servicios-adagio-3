@@ -1,0 +1,43 @@
+body{
+    background-color: #fcfcfc;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+    font-weight: bold;
+}
+
+ul {
+    display: none;
+}
+
+li {
+    color:dimgrey;
+    font-weight: 500;
+}
+
+h4 {
+    color: dimgray;
+}
+
+.titulo-serv {
+    display: none;
+}
+
+.form-control:focus {
+    border-color: #0dcaf0;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgba(13, 202, 240, 0.40);
+  }
+
+.btn-cyan {
+    background-color: #0dcaf0b0;
+    border-color: #0dcaf0b0;
+    /* #0dcaf0 */
+}
+
+.btn-cyan:hover {
+    color: #000;
+    background-color: #31d2f2;
+    border-color: #25cff2;
+}

@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap" rel="stylesheet">
+    <link rel="icon" href="img/book-fill.svg" type="image/svg"/>
+    <title>Directorio servicios Adagio III</title>
+</head>
+<body>
+    <div class="container">
+        <h1 class="mt-5 text-center border-bottom pb-2 text-uppercase">Directorio servicios</h1>
+        <h4 class="mb-5 text-center text-muted">Adagio III</h4>
+        <div class="row justify-content-center">
+            <div class="mb-4 col-xl-6">
+                <input class="form-control w-100" id="search-bar" placeholder="Búsqueda"></input>
+            </div>
+        </div>
+
+        <div id="div-services" class="row mt-1 mb-3 justify-content-md-between">
+
+            <!-- Albañileria -->
+            <div class="col-12 col-md-6 col-lg-4 col-xl-3">
+                <button id="btn-albanileria" class="btn btn-info w-100 mb-3 text-white showHide"><i class="bi bi-bricks mb-1"></i> Albañileria</button>
+                <h4 id="tit-albanileria" class="titulo-serv text-center mb-4"><i class="bi bi-bricks mb-1"></i> Albañileria</h4>
+                <ul id="ul-albanileria" class="servicios">
+                    <!-- <a href="https://api.whatsapp.com/send?phone=525512957434" target="_blank" class="w-100"><i class="icono icon-whatsapp"></i></a> -->
+                    <li>Gil Cabo<br><a href="tel:+5214423325518" class="text-decoration-none">+52 1 44 2332 5518</a></li><br>
+                    <li>Servando Villanueva<br><a href="tel:+5214151704273" class="text-decoration-none">+52 1 41 5170 4273</a></li><br>
+                </ul>
+            </div>
+
+            <!-- Aluminio -->
+            <div class="col-12 col-md-6 col-lg-4 col-xl-3">
+                <button id="btn-aluminio"class="btn btn-info w-100 mb-3 text-white showHide"><i class="bi bi-dash-square-fill mb-1"></i> Aluminio</button>
+                <h4 id="tit-aluminio" class="titulo-serv text-center mb-4"><i class="bi bi-dash-square-fill mb-1"></i> Aluminio</h4>
+                <ul id="ul-aluminio" class="servicios">
+                    <li>Marco<br><a href="tel:+5214422553993" class="text-decoration-none">+52 1 44 2255 3993</a></li><br>
+                </ul>
+            </div>
+
+            <!-- Asesora inmobiliaria -->
+            <div class="col-12 col-md-6 col-lg-4 col-xl-3">
+                <button id="btn-asesora-inmobiliaria" class="btn btn-info w-100 mb-3 text-white showHide"><i class="bi bi-house-check-fill mb-1"></i> Asesora inmobiliaria</button>
+                <h4 id="tit-asesora-inmobiliaria" class="titulo-serv text-center mb-4"><i class="bi bi-house-check-fill mb-1"></i> Asesora inmobiliaria</h4>
+                <ul id="ul-asesora-inmobiliaria" class="servicios">
+                    <li>Edith Almazán Correa<br><a href="tel:+5214462996878" class="text-decoration-none">+52 1 44 6299 6878</a></li><br>
+                </ul>
+            </div>
+
+            <!-- Carpinteria -->
+            <div class="col-12 col-md-6 col-lg-4 col-xl-3">
+                <button id="btn-carpinteria" class="btn btn-info w-100 mb-3 text-white showHide"><i class="bi bi-hammer mb-1"></i> Carpinteria</button>
+                <h4 id="tit-carpinteria" class="titulo-serv text-center mb-4"><i class="bi bi-hammer mb-1"></i> Carpinteria</h4>
+                <ul id="ul-carpinteria" class="servicios">
+                    <li>Alejandro Peña<br><a href="tel:+5214422064993" class="text-decoration-none">+52 1 44 2206 4993</a></li><br>
+                    <li>Ángel<br><a href="tel:+5214425467490" class="text-decoration-none">+52 1 44 2546 7490</a></li><br>
+                    <li>Jorge (Cocinas integrales)<br><a href="tel:+5214423587769" class="text-decoration-none">+52 1 44 2358 7769</a></li><br>
+                    <li>Reynaldo<br><a href="tel:+5217122345067" class="text-decoration-none">+52 1 71 2234 5067</a></li><br>
+                    <li>Rodrigo Pinedo<br><a href="tel:+5214423959505" class="text-decoration-none">+52 1 44 2395 9505</a></li><br>
+                </ul>
+            </div>
+
+            <!-- Cubrepolvos y mosquitero -->
+            <div class="col-12 col-md-6 col-lg-4 col-xl-3">
+                <button id="btn-cubrepolvos" class="btn btn-info w-100 mb-3 text-white showHide"><i class="bi bi-square-half mb-1"></i> Cubrepolvos</button>
+                <h4 id="tit-cubrepolvos" class="titulo-serv text-center mb-4"><i class="bi bi-square-half mb-1"></i> Cubrepolvos</h4>
+                <ul id="ul-cubrepolvos" class="servicios">
+                    <li>Cubrepolvos y mosquiteros<br><a href="tel:+524421606705" class="text-decoration-none">+52 44 2160 6705</a></li><br>
+                </ul>
+            </div>
+
+            <!-- Cuidado personal -->
+            <div class="col-12 col-md-6 col-lg-4 col-xl-3">
+                <button id="btn-cuidado-personal" class="btn btn-info w-100 mb-3 text-white showHide"><i class="bi bi-person-arms-up mb-1"></i> Cuidado personal</button>
+                <h4 id="tit-cuidado-personal" class="titulo-serv text-center mb-4"><i class="bi bi-person-arms-up mb-1"></i> Cuidado personal</h4>
+                <ul id="ul-cuidado-personal" class="servicios">
+                    <li>Ari Giovanna (Limpieza facial, gelish, masajes, tratamiento reductivo y de varices)<br><a href="tel:+5215539969620" class="text-decoration-none">+52 1 55 3996 9620</a></li><br>
+                    <li>Mariana (Masaje de cuerpo completo - espalda, hombros, cuello, brazos, manos, piernas y pies - con aromaterapia y aplicación de termoterapia)<br><a href="tel:+5212471004970" class="text-decoration-none">+52 1 24 7100 4970</a></li><br>
+                </ul>
+            </div>
+
+            <!-- Dentista -->
+            <div class="col-12 col-md-6 col-lg-4 col-xl-3">
+                <button id="btn-dentista" class="btn btn-info w-100 mb-3 text-white showHide"><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512" fill="#fff" class="mb-1"><path d="M186.1 52.1C169.3 39.1 148.7 32 127.5 32C74.7 32 32 74.7 32 127.5v6.2c0 15.8 3.7 31.3 10.7 45.5l23.5 47.1c4.5 8.9 7.6 18.4 9.4 28.2l36.7 205.8c2 11.2 11.6 19.4 22.9 19.8s21.4-7.4 24-18.4l28.9-121.3C192.2 323.7 207 312 224 312s31.8 11.7 35.8 28.3l28.9 121.3c2.6 11.1 12.7 18.8 24 18.4s20.9-8.6 22.9-19.8l36.7-205.8c1.8-9.8 4.9-19.3 9.4-28.2l23.5-47.1c7.1-14.1 10.7-29.7 10.7-45.5v-2.1c0-55-44.6-99.6-99.6-99.6c-24.1 0-47.4 8.8-65.6 24.6l-3.2 2.8 19.5 15.2c7 5.4 8.2 15.5 2.8 22.5s-15.5 8.2-22.5 2.8l-24.4-19-37-28.8z"/></svg> Dentista</button>
+                <h4 id="tit-dentista" class="titulo-serv text-center mb-4"><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512" fill="#fff" class="mb-1"><path d="M186.1 52.1C169.3 39.1 148.7 32 127.5 32C74.7 32 32 74.7 32 127.5v6.2c0 15.8 3.7 31.3 10.7 45.5l23.5 47.1c4.5 8.9 7.6 18.4 9.4 28.2l36.7 205.8c2 11.2 11.6 19.4 22.9 19.8s21.4-7.4 24-18.4l28.9-121.3C192.2 323.7 207 312 224 312s31.8 11.7 35.8 28.3l28.9 121.3c2.6 11.1 12.7 18.8 24 18.4s20.9-8.6 22.9-19.8l36.7-205.8c1.8-9.8 4.9-19.3 9.4-28.2l23.5-47.1c7.1-14.1 10.7-29.7 10.7-45.5v-2.1c0-55-44.6-99.6-99.6-99.6c-24.1 0-47.4 8.8-65.6 24.6l-3.2 2.8 19.5 15.2c7 5.4 8.2 15.5 2.8 22.5s-15.5 8.2-22.5 2.8l-24.4-19-37-28.8z"/></svg> Dentista</h4>
+                <ul id="ul-dentista" class="servicios">
+                    <li>Clínica dental Sin caries<br><a href="tel:+524422450956" class="text-decoration-none">+52 44 2245 0956</a></li><br>
+                    <span>Ubicación:</span><br><a href="https://maps.app.goo.gl/4ke9y6LeNwMdo53r8" target="_blank" class="text-decoration-none"> Abrir en Google Maps</a><br>
+                </ul>
+            </div>
+
+            <!-- Doctora -->
+            <div class="col-12 col-md-6 col-lg-4 col-xl-3">
+                <!-- <button id="btn-doctor" class="btn btn-info w-100 mb-3 text-white showHide"><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512" fill="#fff" class="mb-1"><path d="M224 256A128 128 0 1 0 224 0a128 128 0 1 0 0 256zm-96 55.2C54 332.9 0 401.3 0 482.3C0 498.7 13.3 512 29.7 512H418.3c16.4 0 29.7-13.3 29.7-29.7c0-81-54-149.4-128-171.1V362c27.6 7.1 48 32.2 48 62v40c0 8.8-7.2 16-16 16H336c-8.8 0-16-7.2-16-16s7.2-16 16-16V424c0-17.7-14.3-32-32-32s-32 14.3-32 32v24c8.8 0 16 7.2 16 16s-7.2 16-16 16H256c-8.8 0-16-7.2-16-16V424c0-29.8 20.4-54.9 48-62V304.9c-6-.6-12.1-.9-18.3-.9H178.3c-6.2 0-12.3 .3-18.3 .9v65.4c23.1 6.9 40 28.3 40 53.7c0 30.9-25.1 56-56 56s-56-25.1-56-56c0-25.4 16.9-46.8 40-53.7V311.2zM144 448a24 24 0 1 0 0-48 24 24 0 1 0 0 48z"/></svg> Doctora</button>
+                <h4 id="tit-doctor" class="titulo-serv text-center mb-4"><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512" fill="#fff" class="mb-1"><path d="M224 256A128 128 0 1 0 224 0a128 128 0 1 0 0 256zm-96 55.2C54 332.9 0 401.3 0 482.3C0 498.7 13.3 512 29.7 512H418.3c16.4 0 29.7-13.3 29.7-29.7c0-81-54-149.4-128-171.1V362c27.6 7.1 48 32.2 48 62v40c0 8.8-7.2 16-16 16H336c-8.8 0-16-7.2-16-16s7.2-16 16-16V424c0-17.7-14.3-32-32-32s-32 14.3-32 32v24c8.8 0 16 7.2 16 16s-7.2 16-16 16H256c-8.8 0-16-7.2-16-16V424c0-29.8 20.4-54.9 48-62V304.9c-6-.6-12.1-.9-18.3-.9H178.3c-6.2 0-12.3 .3-18.3 .9v65.4c23.1 6.9 40 28.3 40 53.7c0 30.9-25.1 56-56 56s-56-25.1-56-56c0-25.4 16.9-46.8 40-53.7V311.2zM144 448a24 24 0 1 0 0-48 24 24 0 1 0 0 48z"/></svg> Doctora</h4> -->
+                <button id="btn-doctor" class="btn btn-info w-100 mb-3 text-white showHide"><i class="bi bi-heart-pulse-fill mb-1"></i> Doctora</button>
+                <h4 id="tit-doctor" class="titulo-serv text-center mb-4"><i class="bi bi-heart-pulse-fill mb-1"></i> Doctora</h4>
+                <ul id="ul-doctor" class="servicios">
+                    <li>Alexa Ramos L108<br><a href="tel:+5215541915732" class="text-decoration-none">+52 1 55 4191 5732</a></li><br>
+                    <li>Ana Laura Vélez<br><a href="tel:+5214426682587" class="text-decoration-none">+52 1 44 2668 2587</a></li><br>
+                </ul>
+            </div>
+
+            <!-- Electricista -->
+            <div class="col-12 col-md-6 col-lg-4 col-xl-3">
+                <button id="btn-electricista" class="btn btn-info w-100 mb-3 text-white showHide"><i class="bi bi-lightning-fill mb-1"></i> Electricista</button>
+                <h4 id="tit-electricista" class="titulo-serv text-center mb-4"><i class="bi bi-lightning-fill mb-1"></i> Electricista</h4>
+                <ul id="ul-electricista" class="servicios">
+                    <li>Iván Pérez<br><a href="tel:+5215523063326" class="text-decoration-none">+52 1 55 2306 3326</a></li><br>
+                    <li>Javier Paulino<br><a href="tel:+5214423776450" class="text-decoration-none">+52 1 44 2377 6450</a></li><br>
+                </ul>
+            </div>
+
+            <!-- Gas -->
+            <div class="col-12 col-md-6 col-lg-4 col-xl-3">
+                <button id="btn-gas" class="btn btn-info w-100 mb-3 text-white showHide"><i class="bi bi-fire mb-1"></i> Gas</button>
+                <h4 id="tit-gas" class="titulo-serv text-center mb-4"><i class="bi bi-fire mb-1"></i> Gas</h4>
+                <ul id="ul-gas" class="servicios">
+                    <li>Gas Castillo Tomza<br><a href="tel:+5214461395711" class="text-decoration-none">+52 1 44 6139 5711</a></li><br>
+                    <li>Gas Express Nieto<br><a href="tel:+524422101616" class="text-decoration-none">+52 44 2210 1616</a></li><br>
+                    <li>Gas Rosa<br>
+                        <a href="tel:+524424545000" class="text-decoration-none">+52 44 2454 5000</a></li><br>
+                        <a href="tel:+5214425955959" class="text-decoration-none">+52 1 44 2595 5959</a><br><br>
+                    <li>Gas Segas<br><a href="tel:+5214425735827" class="text-decoration-none">+52 1 44 2573 5827</a></li><br>
+                    <li>Gas Tomza<br>
+                        <a href="tel:+5214425094586" class="text-decoration-none">+52 1 44 2509 4586</a></li><br>
+                        <a href="tel:+524428178179" class="text-decoration-none">+52 44 2817 8179</a><br><br>
+                    <li>Mi gas<br><a href="tel:+5214461170195" class="text-decoration-none">+52 1 44 6117 0195</a></li><br>
+                </ul>
+            </div>
+
+            <!-- Impermeabilizacion -->
+            <div class="col-12 col-md-6 col-lg-4 col-xl-3">
+                <button id="btn-impermeabilizacion" class="btn btn-info w-100 mb-3 text-white showHide"><i class="bi bi-cloud-drizzle-fill mb-1"></i> Impermeabilización</button>
+                <h4 id="tit-impermeabilizacion" class="titulo-serv text-center mb-4"><i class="bi bi-cloud-drizzle-fill mb-1"></i> Impermeabilización</h4>
+                <ul id="ul-impermeabilizacion" class="servicios">
+                    <li>Héctor Bretón<br><a href="tel:+5214424632481" class="text-decoration-none">+52 1 44 2463 2481</a></li><br>
+                </ul>
+            </div>
+
+            <!-- Lavado de autos -->
+            <div class="col-12 col-md-6 col-lg-4 col-xl-3">
+                <button id="btn-lavado-autos" class="btn btn-info w-100 mb-3 text-white showHide"><i class="bi bi-car-front-fill mb-1"></i> Lavado de autos</button>
+                <h4 id="tit-lavado-autos" class="titulo-serv text-center mb-4"><i class="bi bi-car-front-fill mb-1"></i> Lavado de autos</h4>
+                <ul id="ul-lavado-autos" class="servicios">
+                    <li>Rubén (Lavado de autos y taxi)<br><a href="tel:+5214427785954" class="text-decoration-none">+52 1 44 2778 5954</a></li><br>
+                </ul>
+            </div>
+
+            <!-- Lavado de tinacos -->
+            <div class="col-12 col-md-6 col-lg-4 col-xl-3">
+                <button id="btn-lavado-tinacos" class="btn btn-info w-100 mb-3 text-white showHide"><i class="bi bi-life-preserver mb-1"></i> Lavado de tinacos</button>
+                <h4 id="tit-lavado-tinacos" class="titulo-serv text-center mb-4"><i class="bi bi-life-preserver mb-1"></i> Lavado de tinacos</h4>
+                <ul id="ul-lavado-tinacos" class="servicios">
+                    <li>Servicio tinacos Querétaro<br><a href="tel:+5214424244463" class="text-decoration-none">+52 1 44 2424 4463</a></li><br>
+                </ul>
+            </div>
+
+            <!-- Limpieza casa habitacion -->
+            <div class="col-12 col-md-6 col-lg-4 col-xl-3">
+                <button id="btn-limpieza-casa-habitacion" class="btn btn-info w-100 mb-3 text-white showHide"><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 576 512" fill="#fff" class="mb-1"><path d="M566.6 54.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-192 192-34.7-34.7c-4.2-4.2-10-6.6-16-6.6c-12.5 0-22.6 10.1-22.6 22.6v29.1L364.3 320h29.1c12.5 0 22.6-10.1 22.6-22.6c0-6-2.4-11.8-6.6-16l-34.7-34.7 192-192zM341.1 353.4L222.6 234.9c-42.7-3.7-85.2 11.7-115.8 42.3l-8 8C76.5 307.5 64 337.7 64 369.2c0 6.8 7.1 11.2 13.2 8.2l51.1-25.5c5-2.5 9.5 4.1 5.4 7.9L7.3 473.4C2.7 477.6 0 483.6 0 489.9C0 502.1 9.9 512 22.1 512l173.3 0c38.8 0 75.9-15.4 103.4-42.8c30.6-30.6 45.9-73.1 42.3-115.8z"/></svg> Limpieza casa habitacion</button>
+                <h4 id="tit-limpieza-casa-habitacion" class="titulo-serv text-center mb-4"><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 576 512" fill="#fff" class="mb-1"><path d="M566.6 54.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-192 192-34.7-34.7c-4.2-4.2-10-6.6-16-6.6c-12.5 0-22.6 10.1-22.6 22.6v29.1L364.3 320h29.1c12.5 0 22.6-10.1 22.6-22.6c0-6-2.4-11.8-6.6-16l-34.7-34.7 192-192zM341.1 353.4L222.6 234.9c-42.7-3.7-85.2 11.7-115.8 42.3l-8 8C76.5 307.5 64 337.7 64 369.2c0 6.8 7.1 11.2 13.2 8.2l51.1-25.5c5-2.5 9.5 4.1 5.4 7.9L7.3 473.4C2.7 477.6 0 483.6 0 489.9C0 502.1 9.9 512 22.1 512l173.3 0c38.8 0 75.9-15.4 103.4-42.8c30.6-30.6 45.9-73.1 42.3-115.8z"/></svg> Limpieza casa habitacion</h4>
+                <ul id="ul-limpieza-casa-habitacion" class="servicios">
+                    <li>Josefina<br><a href="tel:+5214427829825" class="text-decoration-none">+52 1 44 2782 9825</a></li><br>
+                    <li>María<br><a href="tel:+5215610257308" class="text-decoration-none">+52 1 56 1025 7308</a></li><br>
+                    <li>Patricia Loft 113<br><a href="tel:+5215579447597" class="text-decoration-none">+52 1 55 7944 7597</a></li><br>
+                    <li>Salazar Vega<br><a href="tel:+524427829825" class="text-decoration-none">+52 44 2782 9825</a></li><br>
+                </ul>
+            </div>
+
+            <!-- Mecanico automotriz -->
+            <div class="col-12 col-md-6 col-lg-4 col-xl-3">
+                <button id="btn-mecanico-automotriz" class="btn btn-info w-100 mb-3 text-white showHide"><i class="bi bi-wrench mb-1"></i> Mecánico automotriz</button>
+                <h4 id="tit-mecanico-automotriz" class="titulo-serv text-center mb-4"><i class="bi bi-wrench mb-1"></i> Mecánico automotriz</h4>
+                <ul id="ul-mecanico-automotriz" class="servicios">
+                    <li>Adrian BayernMotors<br><a href="tel:+5214425732720" class="text-decoration-none">+52 1 44 2573 2720</a></li><br>
+                    <li>Arturo (Pradera - Servicio a domicilio)<br><a href="tel:+5214421305305" class="text-decoration-none">+52 1 44 2130 5305</a></li><br>
+                    <li>Jamaica<br><a href="tel:+5214612123520" class="text-decoration-none">+52 1 46 1212 3520</a></li><br>
+                    <li>Miguel<br><a href="tel:+5214421557732" class="text-decoration-none">+52 1 44 2155 7732</a></li><br>
+                </ul>
+            </div>
+
+            <!-- Mecanico motociclista -->
+            <div class="col-12 col-md-6 col-lg-4 col-xl-3">
+                <button id="btn-mecanico-motociclista" class="btn btn-info w-100 mb-3 text-white showHide"><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 640 512" fill="#fff" class="mb-1"><path d="M280 32c-13.3 0-24 10.7-24 24s10.7 24 24 24h57.7l16.4 30.3L256 192l-45.3-45.3c-12-12-28.3-18.7-45.3-18.7H64c-17.7 0-32 14.3-32 32v32h96c88.4 0 160 71.6 160 160c0 11-1.1 21.7-3.2 32h70.4c-2.1-10.3-3.2-21-3.2-32c0-52.2 25-98.6 63.7-127.8l15.4 28.6C402.4 276.3 384 312 384 352c0 70.7 57.3 128 128 128s128-57.3 128-128s-57.3-128-128-128c-13.5 0-26.5 2.1-38.7 6L418.2 128H480c17.7 0 32-14.3 32-32V64c0-17.7-14.3-32-32-32H459.6c-7.5 0-14.7 2.6-20.5 7.4L391.7 78.9l-14-26c-7-12.9-20.5-21-35.2-21H280zM462.7 311.2l28.2 52.2c6.3 11.7 20.9 16 32.5 9.7s16-20.9 9.7-32.5l-28.2-52.2c2.3-.3 4.7-.4 7.1-.4c35.3 0 64 28.7 64 64s-28.7 64-64 64s-64-28.7-64-64c0-15.5 5.5-29.7 14.7-40.8zM187.3 376c-9.5 23.5-32.5 40-59.3 40c-35.3 0-64-28.7-64-64s28.7-64 64-64c26.9 0 49.9 16.5 59.3 40h66.4C242.5 268.8 190.5 224 128 224C57.3 224 0 281.3 0 352s57.3 128 128 128c62.5 0 114.5-44.8 125.8-104H187.3zM128 384a32 32 0 1 0 0-64 32 32 0 1 0 0 64z"/></svg> Mecánico motociclista</button>
+                <h4 id="tit-mecanico-motociclista" class="titulo-serv text-center mb-4"><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 640 512" fill="#fff" class="mb-1"><path d="M280 32c-13.3 0-24 10.7-24 24s10.7 24 24 24h57.7l16.4 30.3L256 192l-45.3-45.3c-12-12-28.3-18.7-45.3-18.7H64c-17.7 0-32 14.3-32 32v32h96c88.4 0 160 71.6 160 160c0 11-1.1 21.7-3.2 32h70.4c-2.1-10.3-3.2-21-3.2-32c0-52.2 25-98.6 63.7-127.8l15.4 28.6C402.4 276.3 384 312 384 352c0 70.7 57.3 128 128 128s128-57.3 128-128s-57.3-128-128-128c-13.5 0-26.5 2.1-38.7 6L418.2 128H480c17.7 0 32-14.3 32-32V64c0-17.7-14.3-32-32-32H459.6c-7.5 0-14.7 2.6-20.5 7.4L391.7 78.9l-14-26c-7-12.9-20.5-21-35.2-21H280zM462.7 311.2l28.2 52.2c6.3 11.7 20.9 16 32.5 9.7s16-20.9 9.7-32.5l-28.2-52.2c2.3-.3 4.7-.4 7.1-.4c35.3 0 64 28.7 64 64s-28.7 64-64 64s-64-28.7-64-64c0-15.5 5.5-29.7 14.7-40.8zM187.3 376c-9.5 23.5-32.5 40-59.3 40c-35.3 0-64-28.7-64-64s28.7-64 64-64c26.9 0 49.9 16.5 59.3 40h66.4C242.5 268.8 190.5 224 128 224C57.3 224 0 281.3 0 352s57.3 128 128 128c62.5 0 114.5-44.8 125.8-104H187.3zM128 384a32 32 0 1 0 0-64 32 32 0 1 0 0 64z"/></svg> Mecánico motociclista</h4>
+                <ul id="ul-mecanico-motociclista" class="servicios">
+                    <li>Rafael (Taller)<br><a href="tel:+5214428900552" class="text-decoration-none">+52 1 44 2890 0552</a></li><br>
+                </ul>
+            </div>
+
+            <!-- Mosquiteros -->
+            <div class="col-12 col-md-6 col-lg-4 col-xl-3">
+                <button id="btn-mosquiteros" class="btn btn-info w-100 mb-3 text-white showHide"><i class="bi bi-border-outer mb-1"></i> Mosquiteros</button>
+                <h4 id="tit-mosquiteros" class="titulo-serv text-center mb-4"><i class="bi bi-border-outer mb-1"></i> Mosquiteros</h4>
+                <ul id="ul-mosquiteros" class="servicios">
+                    <li>Mosquiteros y cubrepolvos<br><a href="tel:+524421606705" class="text-decoration-none">+52 44 2160 6705</a></li><br>
+                    <li>Mosquiteros<br><a href="tel:+5215531341248" class="text-decoration-none">+52 1 55 3134 1248</a></li><br>
+                    <li>Rubén (Mosquiteros y pergolas)<br><a href="tel:+5215519826035" class="text-decoration-none">+52 1 55 1982 6035</a></li><br>
+                </ul>
+            </div>
+
+            <!-- Rescate de abejas -->
+            <div class="col-12 col-md-6 col-lg-4 col-xl-3">
+                <button id="btn-abejas" class="btn btn-info w-100 mb-3 text-white showHide"><i class="bi bi-flower3 mb-1"></i> Panal abejas</button>
+                <h4 id="tit-abejas" class="titulo-serv text-center mb-4"><i class="bi bi-flower3 mb-1"></i> Panal abejas</h4>
+                <ul id="ul-abejas" class="servicios">
+                    <li>Joel Rayas (Rescate de abejas <strong>SIN COSTO</strong>)<br><a href="tel:+524421480484" class="text-decoration-none">+52 44 2148 0484</a></li><br>
+                </ul>
+            </div>
+
+            <!-- Persianas y papel tapiz -->
+            <div class="col-12 col-md-6 col-lg-4 col-xl-3">
+                <button id="btn-persianas-papel-tapiz" class="btn btn-info w-100 mb-3 text-white showHide"><i class="bi bi-border-width mb-1"></i> Persianas y papel tapiz</button>
+                <h4 id="tit-persianas-papel-tapiz" class="titulo-serv text-center mb-4"><i class="bi bi-border-width mb-1"></i> Persianas y papel tapiz</h4>
+                <ul id="ul-persianas-papel-tapiz" class="servicios">
+                    <li>Persianas y papel tapiz<br><a href="tel:+5214423474738" class="text-decoration-none">+52 1 44 2347 4738</a></li><br>
+                </ul>
+            </div>
+
+            <!-- Plomeria -->
+            <div class="col-12 col-md-6 col-lg-4 col-xl-3">
+                <button id="btn-plomeria" class="btn btn-info w-100 mb-3 text-white showHide"><i class="bi bi-droplet-fill mb-1"></i> Plomeria</button>
+                <h4 id="tit-plomeria" class="titulo-serv text-center mb-4"><i class="bi bi-droplet-fill mb-1"></i> Plomeria</h4>
+                <ul id="ul-plomeria" class="servicios">
+                    <li>Arturo Castellanos<br><a href="tel:+5214423337904" class="text-decoration-none">+52 1 44 2333 7904</a></li><br>
+                    <li>Baldomero<br><a href="tel:+5214423854031" class="text-decoration-none">+52 1 44 2385 4031</a></li><br>
+                    <li>Edmundo (Hidroneumáticos)<br><a href="tel:+5214423622764" class="text-decoration-none">+52 1 44 2362 2764</a></li><br>
+                    <li>Francisco Tello<br><a href="tel:+5214421414781" class="text-decoration-none">+52 1 44 2141 4781</a></li><br>
+                    <li>José Sánchez<br><a href="tel:+5217121083080" class="text-decoration-none">+52 1 71 2108 3080</a></li><br>
+                    <li>Manuel<br><a href="tel:+524421912133" class="text-decoration-none">+52 44 2191 2133</a></li><br>
+                    <li>Plomería González<br><a href="tel:+5214686804606" class="text-decoration-none">+52 1 46 8680 4606</a></li><br>
+                </ul>
+            </div>
+
+            <!-- Renta de mesas y sillas -->
+            <div class="col-12 col-md-6 col-lg-4 col-xl-3">
+                <button id="btn-renta-mesas-sillas" class="btn btn-info w-100 mb-3 text-white showHide"><i class="bi bi-grid-3x2-gap mb-1"></i> Renta de mesas y sillas</button>
+                <h4 id="tit-renta-mesas-sillas" class="titulo-serv text-center mb-4"><i class="bi bi-grid-3x2-gap mb-1"></i> Renta de mesas y sillas</h4>
+                <ul id="ul-renta-mesas-sillas" class="servicios">
+                    <li>MSF eventos y alquileres<br><a href="tel:+5214423705076" class="text-decoration-none">+52 1 44 2370 5076</a></li><br>
+                    <li>Renta de mesas y sillas<br><a href="tel:+5214423830390" class="text-decoration-none">+52 1 44 2383 0390</a></li><br>
+                </ul>
+            </div>
+
+            <!-- Tarjetas presentacion -->
+            <div class="col-12 col-md-6 col-lg-4 col-xl-3">
+                <button id="btn-tarjetas-presentacion" class="btn btn-info w-100 mb-3 text-white showHide"><i class="bi bi-person-vcard-fill mb-1"></i> Tarjetas de presentación</button>
+                <h4 id="tit-tarjetas-presentacion" class="titulo-serv text-center mb-4"><i class="bi bi-person-vcard-fill mb-1"></i> Tarjetas de presentación</h4>
+                <ul id="ul-tarjetas-presentacion" class="servicios">
+                    <li>Pica y Pixel plaza Ancona<br><a href="tel:+5214424230497" class="text-decoration-none">+52 1 44 2423 0497</a></li><br>
+                </ul>
+            </div>
+
+            <!-- Telmex -->
+            <div class="col-12 col-md-6 col-lg-4 col-xl-3">
+                <button id="btn-telmex" class="btn btn-info w-100 mb-3 text-white showHide"><i class="bi bi-telephone-fill mb-1"></i> Telmex</button>
+                <h4 id="tit-telmex" class="titulo-serv text-center mb-4"><i class="bi bi-telephone-fill mb-1"></i> Telmex</h4>
+                <ul id="ul-telmex" class="servicios">
+                    <li>Telmex<br><a href="tel:018001232222" class="text-decoration-none">01 800 123 2222</a></li><br>
+                </ul>
+            </div>
+
+            <!-- Transporte -->
+            <div class="col-12 col-md-6 col-lg-4 col-xl-3">
+                <button id="btn-transporte" class="btn btn-info w-100 mb-3 text-white showHide"><i class="bi bi-bus-front-fill mb-1"></i> Transporte</button>
+                <h4 id="tit-transporte" class="titulo-serv text-center mb-4"><i class="bi bi-bus-front-fill mb-1"></i> transporte</h4>
+                <ul id="ul-transporte" class="servicios">
+                    <li>Javier (Didi)<br><a href="tel:+5215573933759" class="text-decoration-none">+52 1 55 7393 3759</a></li><br>
+                    <li>Mariano Chávez<br><a href="tel:+5215563388287" class="text-decoration-none">+52 1 55 6338 8287</a></li><br>
+                    <li>Movilidad Van Bien SA de CV<br><a href="tel:+5215513096776" class="text-decoration-none">+52 1 55 1309 6776</a></li><br>
+                    <li>Rubén (Taxi y lavado de autos)<br><a href="tel:+5214427785954" class="text-decoration-none">+52 1 44 2778 5954</a></li><br>
+                </ul>
+            </div>
+
+            <!-- Uniformes y compostura de prendas-->
+            <div class="col-12 col-md-6 col-lg-4 col-xl-3">
+                <button id="btn-uniformes-compostura-prendas" class="btn btn-info w-100 mb-3 text-white showHide"><i class="bi bi-ticket-perforated-fill mb-1"></i> Uniformes y compostura prendas</button>
+                <h4 id="tit-uniformes-compostura-prendas" class="titulo-serv text-center mb-4"><i class="bi bi-ticket-perforated-fill mb-5"></i> Uniformes y compostura de prendas</h4>
+                <ul id="ul-uniformes-compostura-prendas" class="servicios">
+                    <li>Creativa textil (Composturas)<br><a href="tel:+524421520017" class="text-decoration-none">+52 44 2152 0017</a></li><br>
+                    <span>Ubicación:</span><br><a href="https://maps.app.goo.gl/WiZaDyZFeeTyWtY7A" target="_blank" class="text-decoration-none"> Abrir en Google Maps</a><br><br>
+                    <li>Uniformes de Querétaro<br><a href="tel:+524422169643" class="text-decoration-none">+52 44 2216 9643</a></li><br>
+                    <span>Ubicación:</span><br><a href="https://goo.gl/maps/y1FHvmrZyrXrXXcS9" target="_blank" class="text-decoration-none"> Abrir en Google Maps</a><br><br>
+                </ul>
+            </div>
+
+            <!-- Veterinario -->
+            <div class="col-12 col-md-6 col-lg-4 col-xl-3">
+                <button id="btn-veterinario" class="btn btn-info w-100 mb-3 text-white showHide"><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 576 512" fill="#fff" class="mb-1"><path d="M309.6 158.5L332.7 19.8C334.6 8.4 344.5 0 356.1 0c7.5 0 14.5 3.5 19 9.5L392 32h52.1c12.7 0 24.9 5.1 33.9 14.1L496 64h56c13.3 0 24 10.7 24 24v24c0 44.2-35.8 80-80 80H464 448 426.7l-5.1 30.5-112-64zM416 256.1L416 480c0 17.7-14.3 32-32 32H352c-17.7 0-32-14.3-32-32V364.8c-24 12.3-51.2 19.2-80 19.2s-56-6.9-80-19.2V480c0 17.7-14.3 32-32 32H96c-17.7 0-32-14.3-32-32V249.8c-28.8-10.9-51.4-35.3-59.2-66.5L1 167.8c-4.3-17.1 6.1-34.5 23.3-38.8s34.5 6.1 38.8 23.3l3.9 15.5C70.5 182 83.3 192 98 192h30 16H303.8L416 256.1zM464 80a16 16 0 1 0 -32 0 16 16 0 1 0 32 0z"/></svg> Veterinario</button>
+                <h4 id="tit-veterinario" class="titulo-serv text-center mb-4"><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 576 512" fill="#fff" class="mb-1"><path d="M309.6 158.5L332.7 19.8C334.6 8.4 344.5 0 356.1 0c7.5 0 14.5 3.5 19 9.5L392 32h52.1c12.7 0 24.9 5.1 33.9 14.1L496 64h56c13.3 0 24 10.7 24 24v24c0 44.2-35.8 80-80 80H464 448 426.7l-5.1 30.5-112-64zM416 256.1L416 480c0 17.7-14.3 32-32 32H352c-17.7 0-32-14.3-32-32V364.8c-24 12.3-51.2 19.2-80 19.2s-56-6.9-80-19.2V480c0 17.7-14.3 32-32 32H96c-17.7 0-32-14.3-32-32V249.8c-28.8-10.9-51.4-35.3-59.2-66.5L1 167.8c-4.3-17.1 6.1-34.5 23.3-38.8s34.5 6.1 38.8 23.3l3.9 15.5C70.5 182 83.3 192 98 192h30 16H303.8L416 256.1zM464 80a16 16 0 1 0 -32 0 16 16 0 1 0 32 0z"/></svg> Veterinario</h4>
+                <ul id="ul-veterinario" class="servicios">
+                    <li>Ignacio Becerra<br><a href="tel:+5214423150228" class="text-decoration-none">+52 1 44 2315 0228</a></li><br>
+                    <li>Melissa<br><a href="tel:+5215519125241" class="text-decoration-none">+52 1 55 1912 5241</a></li><br>
+                    <li>Urgencias Veterinaria<br><a href="tel:+524424900809 " class="text-decoration-none">+52 44 2490 0809</a></li><br>
+                    <li>Veterinario Zakia<br><a href="tel:+5214431989175" class="text-decoration-none">+52 1 44 3198 9175</a></li><br>
+                </ul>
+            </div>
+
+            <!-- Vulzanizadora -->
+            <div class="col-12 col-md-6 col-lg-4 col-xl-3">
+                <button id="btn-vulcanizadora" class="btn btn-info w-100 mb-3 text-white showHide"><i class="bi bi-tools mb-1"></i> Vulcanizadora</button>
+                <h4 id="tit-vulcanizadora" class="titulo-serv text-center mb-4"><i class="bi bi-tools mb-1"></i> Vulcanizadora</h4>
+                <ul id="ul-vulcanizadora" class="servicios">
+                    <li>Vulcanizadora móvil (Pradera)<br><a href="tel:+524426793978" class="text-decoration-none">+52 44 2679 3978</a></li><br>
+                    <span>Ubicación:</span><br><a href="https://maps.app.goo.gl/nBcVh9UgG71Pt8bD6?g_st=iwb" target="_blank" class="text-decoration-none"> Abrir en Google Maps</a><br><br>
+                </ul>
+            </div>
+        </div>
+
+        <footer class="justify-content-center py-3 my-4">
+            <p class="text-center border-bottom pb-3 mb-3 h5">Actualizado al 11 oct 2023</p>
+            <p class="text-center text-muted">Desarrollado por Alan Sánchez (L309)<br><br><a href="https://api.whatsapp.com/send?phone=5572420599" target="_blank" class="w-100 text-decoration-none text-muted"><i class="bi bi-whatsapp"></i> Contacto</a></p>
+        </footer>
+    </div>
+</body>
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/jquery-3.7.1.min.js"></script>
+<script src="js/index.js"></script>
+</html>
